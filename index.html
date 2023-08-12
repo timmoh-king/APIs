@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link typet="text/css" rel="stylesheet" href="./assets/css/main.css" />
     <title>Document</title>
-</head>
-<body>
-    <h3>Joke of the day</h3>
-    <button onclick=getJoke()>Get random joke</button>
-    <p id="setup"></p>
-    <p id="punchline"></p>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="random">
+          <h2>Joke of the day</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            inventore deserunt voluptate. Porro distinctio minus, obcaecati quo
+            eum, odit deleniti ipsam at provident eos voluptatum? Eum, suscipit!
+            Quam, iste hic!
+          </p>
+          <button class="btn" onclick="getJoke()">Get random joke</button>
+        </div>
+        <div class="right">
+          <p id="setup"></p>
+          <p id="punchline"></p>
+        </div>
+      </div>
+    </section>
 
-    <br/>
+    <br />
 
-    <h3>Top 10 hottest jokes</h3>
-    <button onclick=getTenJokes()>Get jokes</button>
+    <section class="section">
+      <div class="ten">
+        <h2>Top 10 hottest jokes</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ut
+          repellat distinctio voluptas sapiente omnis dolores reprehenderit
+          tempore harum, a quisquam praesentium fugit maiores et sequi, quo
+          fugiat laboriosam nisi?
+        </p>
+        <button class="btn" onclick="getTenJokes()">Get jokes</button>
+      </div>
+    </section>
     <ul id="ul"></ul>
 
     <script type="text/javascript" src="./assets/main.js"></script>
-</body>
+  </body>
 </html>
